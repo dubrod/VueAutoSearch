@@ -19,9 +19,9 @@
                   <strong>SORT OPTIONS</strong>
                   <select v-model="$root.currentOrder">
                     <option value="0">Select One</option>
-                    <option value="1">Year (Low to Year)</option>
+                    <option value="1">Year (Low to High)</option>
                     <option value="2">Year (High to Low)</option>
-                    <option value="3">Price (Low to Year)</option>
+                    <option value="3">Price (Low to High)</option>
                     <option value="4">Price (High to Low)</option>
                   </select>
                 </fieldset>
